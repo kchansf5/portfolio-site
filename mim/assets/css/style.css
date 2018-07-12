@@ -1515,7 +1515,7 @@ select {
 	color: #b3b3b3;
 }
 .custom-input button.btn {
-    border-radius: 0;
+    border-radius: 5px;
     color: #ffffff;
     height: 40px;
     line-height: 40px;
