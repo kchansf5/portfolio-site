@@ -1462,6 +1462,19 @@ select {
     width: 47px;
 	color: #919191;
 }
+
+i.zmdi.zmdi-email:hover {
+    color: steelblue;
+    border: 1px solid steelblue;
+}
+i.fab.fa-github:hover {
+    color: steelblue;
+    border: 1px solid steelblue;
+}
+i.fab.fa-linkedin-in:hover {
+    color: steelblue;
+    border: 1px solid steelblue;
+}
 .contact-text li h4,
 .contact-text li span {
   position: relative;
