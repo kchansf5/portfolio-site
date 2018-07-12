@@ -880,7 +880,7 @@ select {
 	letter-spacing: 0.40px;
 }
 .mainmenu li a:after {
-    background: #afafaf none repeat scroll 0 0;
+    /*background: #afafaf none repeat scroll 0 0;*/
     content: "";
     height: 2px;
     left: 0;
@@ -894,7 +894,7 @@ select {
 }
 .mainmenu li a:hover,
 .mainmenu li.active a {
-    color: #afafaf;
+    color: steelblue;
 }
 .mainmenu li a:hover:after,
 .mainmenu li.active a:after {
