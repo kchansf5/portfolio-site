@@ -756,10 +756,6 @@ i[class^="flaticon-"]:before {
 
 /* CSS Customization
 ============================== */
-#contact {
-	display: flex;
-}
-
 ul, ul li {
   list-style: outside none none;
   margin: 0;
@@ -1431,6 +1427,15 @@ select {
 
 /* contact area
 ----------------*/
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+#contact-icons {
+	display: flex;
+}
 .section-title h2 {
   color: steelblue;
 }
@@ -1837,7 +1842,7 @@ i.fab.fa-linkedin-in:hover {
 
 
 /*
-[ 6. Loding Bar ]
+[ 6. Loading Bar ]
 ======================*/
 #loading {
   background: #000 none repeat scroll 0 0;
@@ -1874,8 +1879,8 @@ i.fab.fa-linkedin-in:hover {
 	width: 10px;
 }
 #object_three {
-    -webkit-animation: object_three 1.5s infinite;
-    animation: object_three 1.5s infinite;
+    -webkit-animation: object_three 0.5s infinite;
+    animation: object_three 0.5s infinite;
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
 }
