@@ -1879,8 +1879,8 @@ i.fab.fa-linkedin-in:hover {
 	width: 10px;
 }
 #object_three {
-    -webkit-animation: object_three 0.5s infinite;
-    animation: object_three 0.5s infinite;
+    -webkit-animation: object_three 1.5s infinite;
+    animation: object_three 1.5s infinite;
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
 }
