@@ -1040,6 +1040,10 @@ select {
   width: 370px;
 }
 
+#left-mr-40 {
+	border: 1px solid red;
+}
+
 /* Progress bar
 ---------------------*/
 .skill-bar {
