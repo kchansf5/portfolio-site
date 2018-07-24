@@ -804,6 +804,13 @@ nav ul a {
     margin-left: -15px;
 }
 
+.container #timeline {
+		display: flex;
+		flex-direction: column;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 .row .col {
     padding-right: 15px;
     padding-left: 15px;
