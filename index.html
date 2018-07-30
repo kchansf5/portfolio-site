@@ -18,7 +18,11 @@
 		<link rel="stylesheet" href="style.css">
 		<!-- modernizr js -->
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-
+    <script type="text/javascript">
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        }
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122610104-1"></script>
     <script>
