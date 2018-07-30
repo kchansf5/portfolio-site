@@ -821,6 +821,7 @@ nav ul a {
 		flex-direction: column;
     margin-right: -15px;
     margin-left: -15px;
+		align-items: center;
 }
 
 .row .col {
