@@ -2,13 +2,13 @@
 /* Large Devices, Wide Screens :1200px
 ====================================*/
 @media (min-width: 1200px) and (max-width: 1500px) {
-	
+
 }
 
 /* Normal desktop :992px
 ====================================*/
 @media (min-width: 992px) and (max-width: 1200px) {
-	
+
 .mainmenu.onepage-nev {
   margin-left: -35px;
 }
@@ -65,7 +65,7 @@
 
 }
 
-/* Small Mobile :320px. 
+/* Small Mobile :320px.
 ====================================*/
 @media (max-width: 767px) {
 
@@ -76,10 +76,15 @@
 	margin-bottom: 30px;
 }
 .section-padding {
-  padding: 80px 0;
+  padding-bottom: 80px 0;
 }
-.percent-25, 
-.percent-33, 
+
+section #about {
+	padding-bottom: 10px;
+}
+
+.percent-25,
+.percent-33,
 .percent-50 {
   width: 100%;
 }
@@ -174,7 +179,7 @@ footer .right.floatright {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 .container {width:480px}
- 
+
 .percent-33{
   width: 50%;
 }

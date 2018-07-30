@@ -758,7 +758,7 @@ i[class^="flaticon-"]:before {
 ============================== */
 ul, ul li {
   list-style: outside none none;
-  margin: 0;
+  margin: 0px 5px 0px 5px;
   padding: 0;
 }
 nav {
@@ -802,8 +802,20 @@ nav ul a {
 .container .row {
     margin-right: -15px;
     margin-left: -15px;
+		display: flex;
+		justify-content: center;
 }
 
+.container .contact-row {
+    margin-right: -15px;
+    margin-left: -15px;
+		display: flex;
+		justify-content: center;
+}
+
+.contact-area-light-bg-section-padding {
+	border: 1px solid blue;
+}
 .container #timeline {
 		display: flex;
 		flex-direction: column;
@@ -1435,11 +1447,15 @@ select {
 
 /* contact area
 ----------------*/
+section#contact {
+    padding-bottom: 10px;
+}
+
 #contact {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: left;
+	align-items: center;
 }
 #contact-icons {
 	display: flex;
@@ -1458,7 +1474,7 @@ select {
 }
 
 .contact-text li {
-    margin-bottom: 25px;
+    margin-bottom: 55px;
 }
 .contact-text li:last-child{
     margin-bottom: 0px;
