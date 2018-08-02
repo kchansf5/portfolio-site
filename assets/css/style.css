@@ -1503,13 +1503,28 @@ i.zmdi.zmdi-email:hover {
     color: steelblue;
     border: 1px solid steelblue;
 }
+.slider-button.smooth-scroll.mt-40 {
+    display: flex;
+}
+i.fab.fa-github{
+	font-size: 50px;
+	color: steelblue;
+	font-size: 50px;
+	margin-left: 25px;
+	font-size: 50px;
+}
 i.fab.fa-github:hover {
-    color: steelblue;
-    border: 1px solid steelblue;
+    color: #393939;
+}
+i.fab.fa-linkedin-in{
+	font-size: 50px;
+	color: steelblue;
+	font-size: 50px;
+	margin-left: 25px;
+	font-size: 50px;
 }
 i.fab.fa-linkedin-in:hover {
-    color: steelblue;
-    border: 1px solid steelblue;
+    color: #393939;
 }
 .contact-text li h4,
 .contact-text li span {
