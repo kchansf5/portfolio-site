@@ -1533,6 +1533,14 @@ i.fab.fa-linkedin-in:hover {
 
 /* contact form
 ---------------*/
+
+.thanks {
+  display: flex;
+  justify-content: center;
+  color: steelblue;
+  align-items: center;
+  text-align: center;
+}
 .contact-form {
   margin: 0 auto;
   width: 503px;
@@ -1567,6 +1575,12 @@ i.fab.fa-linkedin-in:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	color: #b3b3b3;
 }
+.col-xs-12 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .custom-input button.btn {
     border-radius: 5px;
     color: #ffffff;
@@ -1620,6 +1634,7 @@ i.fab.fa-linkedin-in:hover {
 .contact_form label.valid {
     display: none !important;
 }
+
 
 /* footer
 ----------*/
