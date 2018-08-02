@@ -1457,7 +1457,12 @@ select {
 section#contact {
     padding-bottom: 10px;
 }
-
+#contact-lines {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 #contact {
 	display: flex;
 	flex-direction: column;
@@ -1466,6 +1471,9 @@ section#contact {
 }
 #contact-icons {
 	display: flex;
+}
+.personal-email {
+	font-size: 20px;
 }
 .section-title h2 {
   color: steelblue;
