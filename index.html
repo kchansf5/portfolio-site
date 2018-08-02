@@ -691,7 +691,10 @@
                 Feel free to leave a message below!
               </div>
 							<div class="contact-form pt-40">
-								<!-- <form class="custom-input contact_form" id="contact_form" action="contact-form.php" method="post" name="contact" netlify>
+
+                <!-- <form class="custom-input contact_form" id="contact_form" action="contact-form.php" method="post" name="contact" netlify> -->
+
+                <form class="custom-input contact_form" id="contact_form" method="POST" name="contact" netlify>
 									<div class="row name-email">
 										<div class="col-xs-12 col-sm-6">
 											<input type="text" id="contact_name" name="name" placeholder="Your Name" />
@@ -703,13 +706,15 @@
 									<div class="row">
 										<div class="col-xs-12">
 											<textarea class="mt-50" name="message" id="contact_message" rows="6" placeholder="Your Message"></textarea>
-											<button class="btn montserrat weight-regular uppercase mt-30" type="submit" name="submit" id="contact_submit" data-complete-text="Well done!">
+											<button class="btn montserrat weight-regular uppercase mt-30" type="submit" id="contact_submit" data-complete-text="Well done!">
 												Send Message
 											</button>
 										</div>
 									</div>
-								</form> -->
-                <form name="contact" method="POST" netlify>
+								</form>
+
+
+                <!-- <form name="contact" method="POST" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
@@ -728,7 +733,7 @@
   <p>
     <button type="submit">Send</button>
   </p>
-</form>
+</form> -->
 							</div>
 						</div>
 					</div>
