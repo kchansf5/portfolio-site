@@ -1,11 +1,11 @@
 (function ($) {
  "use strict";
- 
+
 /*
   STICKY
 ================================== */
-	$(window).on('scroll',function() { 
-		var AcSticky = $('.active-sticky');   
+	$(window).on('scroll',function() {
+		var AcSticky = $('.active-sticky');
 		var scroll = $(window).scrollTop();
 		var AESticky = AcSticky;
 		if (scroll < 245) {
@@ -14,9 +14,9 @@
 		else{
 			AESticky.addClass("is-sticky");
 		}
-        return false; 
+        return false;
 	});
-	
+
 	//smooth scroll
 	$('.smooth-scroll a[href*="#"]:not([href="#"])').click(function() {
 		if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
@@ -30,7 +30,7 @@
 			}
 		}
 	});
-	
+
 /*
   ONE PAGE NAVIGATE
 ================================== */
@@ -42,7 +42,7 @@
 	});
 
 /*
-  EXPEND MENU 
+  EXPEND MENU
 ================================== */
 	var CloseMu = $('.close-menu');
 	var ExMuOp = $('.expand-menu-open');
@@ -60,7 +60,7 @@
 			ExMu.removeClass("slide_right");
 		}
 	});
-	
+
 /*
   PROGRESS WITH WAYPOINT ACTIVE
 ================================== */
@@ -68,12 +68,12 @@
 	var ProWey = $('.skill-progress');
     if (ProWey.length > 0) {
         ProWey.waypoint(function () {
-			// element 
+			// element
 			jQuery('.skill-bar').each(function() {
 				jQuery(this).find('.progress-content').animate({
 					width:jQuery(this).attr('data-percentage')
 				},2000);
-				
+
 				jQuery(this).find('.progress-mark').animate(
 				{left:jQuery(this).attr('data-percentage')},
 			{
@@ -82,33 +82,33 @@
 					var data = Math.round(now);
 					jQuery(this).find('.percent').html(data + '%');
 				}
-			});  
-			
+			});
+
 			});
 		}, {offset: '90%'});
 	}
 
 /*
  ISOTOPE ACTIVE
-================================ */	
+================================ */
 
 	// isotope menu
 	var ProjMli = $('.portfolio-menu li');
 	var ProjGrid = $('.portfolio-grid');
 	ProjMli.on('click', function(){
 	ProjMli.removeClass("active");
-	  $(this).addClass("active");        
-		var selector = $(this).attr('data-filter'); 
-		ProjGrid.isotope({ 
-			filter: selector, 
-			animationOptions: { 
-				duration: 750, 
-				easing: 'linear', 
+	  $(this).addClass("active");
+		var selector = $(this).attr('data-filter');
+		ProjGrid.isotope({
+			filter: selector,
+			animationOptions: {
+				duration: 750,
+				easing: 'linear',
 				queue: false,
 			}
 		});
 	});
-	
+
 /*
  fancybox Popup
 ================================ */
@@ -129,7 +129,7 @@
 		}
     });
 	FancYB.attr('rel','gallery');
-	
+
 	/* youtube video popup
 	--------------------*/
 	var FanVari = $('.various');
@@ -145,7 +145,7 @@
 		openEffect  : 'fade',
 		closeEffect : 'fade'
 	});
-	
+
 /*
 	SLICK CAROUSEL AS NAV
 ===================================*/
@@ -154,7 +154,7 @@
 		dots: true,
 		arrows: false
 	});
-	
+
 /*
 	CONTACT FORM VALIDATIONS SETTINGS
 ========================================*/
@@ -179,17 +179,17 @@
                 email: "Please, enter a valid email"
             }
         },
-					
+
         highlight: function(element) {
             $(element)
             .text('').addClass('error')
-        },                    
-					
+        },
+
         success: function(element) {
             element
             .text('').addClass('valid')
         }
-    });   
+    });
 
 
 /*
@@ -199,7 +199,7 @@
     CTForm.submit(function() {
         // submit the form
         if($(this).valid()){
-           CTSubmit.button('loading'); 
+           CTSubmit.button('loading');
             var action = $(this).attr('action');
             $.ajax({
                 url: action,
@@ -218,16 +218,16 @@
 					CTSubmit.button('error');
                 }
             });
-        // return false to prevent normal browser submit and page navigation 
+        // return false to prevent normal browser submit and page navigation
         } else {
             CTSubmit.button('reset')
         }
-        return false; 
-    });	
+        return false;
+    });
 
 /*
 	SCROLLUP
-================================ */	
+================================ */
 
 	$.scrollUp({
         scrollText: '<i class="zmdi zmdi-chevron-up"></i>',
@@ -235,19 +235,19 @@
         scrollSpeed: 900,
         animation: 'fade'
     });
-	
+
 })(jQuery);
 
 /*
 	LODING BAR
-================================ */	
+================================ */
 
 var WinD = $(window);
 WinD.on('load', function(){
 	//Preloader
 	var preeLoad = $('#loading');
 	preeLoad.fadeOut(1000);
-	
+
 	// isotope grid
 	var IsoGriddoload = $('.portfolio-grid');
 	IsoGriddoload.isotope({

@@ -161,7 +161,7 @@ a:hover {
 a,
 .navbar a,
 .form-control {
-    -webkit-transition: all 0.3s ease;
+    -webkit-: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -1010,8 +1010,8 @@ select {
 	transition: all 0.4s ease 0s;
 }
 .header-top.is-sticky {
-    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-            animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    /* -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+            animation: 300ms ease-in-out 0s normal none 1 running fadeInDown; */
     background: #f5f5f5;
     left: 0;
     padding: 10px 0;
@@ -1229,10 +1229,10 @@ select {
     transition: all 0.2s linear;
 }
 .single-portfolio:hover img {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
 }
 .project-title {
     bottom: 0;
@@ -1240,8 +1240,8 @@ select {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     position: absolute;
-    -webkit-transition: all 0.5s ease 0.3s;
-    transition: all 0.5s ease 0.3s;
+    -webkit-transition: all 0.3s ease 0.3s;
+    transition: all 0.3s ease 0.3s;
     z-index: 5;
 }
 .project-title h4 {
