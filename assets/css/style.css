@@ -1523,6 +1523,7 @@ i.fab.fa-github{
 }
 i.fab.fa-github:hover {
     color: #393939;
+		transform: scale(1.1);
 }
 i.fab.fa-linkedin-in{
 	font-size: 50px;
