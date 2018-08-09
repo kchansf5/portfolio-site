@@ -1520,6 +1520,8 @@ i.fab.fa-github{
 	font-size: 50px;
 	margin-left: 25px;
 	font-size: 50px;
+	transition-timing-function: ease;
+  transition: 0.35s;
 }
 i.fab.fa-github:hover {
     color: #393939;
@@ -1531,9 +1533,12 @@ i.fab.fa-linkedin-in{
 	font-size: 50px;
 	margin-left: 25px;
 	font-size: 50px;
+	transition-timing-function: ease;
+  transition: 0.35s;
 }
 i.fab.fa-linkedin-in:hover {
     color: #393939;
+		transform: scale(1.1);
 }
 .contact-text li h4,
 .contact-text li span {
